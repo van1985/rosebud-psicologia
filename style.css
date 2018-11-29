@@ -1,0 +1,165 @@
+#overview .link-overview,
+#testers .link-testers,
+#release-notes .link-release-notes {
+	color: rgba(51, 51, 51, 0.6);
+	pointer-events: none;
+}
+
+
+#release-notes #main > div > section.release-notes > div > div > section:nth-child(1) {
+	border-top: none;
+	padding-top: 3em;
+}
+
+
+#release-notes #main > div > section.release-notes > div > div > section:nth-child(n+2) {
+	border-top: 1px solid #d6d6d6; 
+	margin-top: 3em;
+	padding-top: 3em;
+}
+
+.smaller,
+section.resources .column:last-child {
+    font-size: 14px;
+    line-height: 24px
+}
+
+#overview .main section.hero figure[data-figure-id="testflight-overview-hero"] {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: -22px;
+    padding-bottom: initial;
+    width: 1024px;
+    max-width: initial;
+    height: 600px;
+    background-image: url(#);
+    background-size: 1024px 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/testflight/images/testflight-overview-hero-large.png)
+}
+
+@media only screen and (min-resolution: 1.5dppx),
+(min-resolution: 144dpi) {
+    #overview .main section.hero figure[data-figure-id="testflight-overview-hero"] {
+        background-image: url(/testflight/images/testflight-overview-hero-large_2x.png)
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    #overview .main section.hero figure[data-figure-id="testflight-overview-hero"] {
+        margin-left: auto;
+        margin-right: auto;
+        left: -12.5px;
+        padding-bottom: initial;
+        width: 759px;
+        max-width: initial;
+        height: 445px;
+        background-image: url(#);
+        background-size: 759px 445px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/testflight/images/testflight-overview-hero-medium.png)
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    #overview .main section.hero figure[data-figure-id="testflight-overview-hero"] {
+        background-image: url(/testflight/images/testflight-overview-hero-medium_2x.png)
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    #overview .main section.hero figure[data-figure-id="testflight-overview-hero"] {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        padding-bottom: 258px;
+        width: 440px;
+        max-width: 100%;
+        height: 0px;
+        background-image: url(#);
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/testflight/images/testflight-overview-hero-small.png)
+    }
+}
+
+@media only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    #overview .main section.hero figure[data-figure-id="testflight-overview-hero"] {
+        background-image: url(/testflight/images/testflight-overview-hero-small_2x.png)
+    }
+}
+
+#testers .main section.hero figure[data-figure-id="testflight-testers-hero"] {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: initial;
+    width: 600px;
+    max-width: initial;
+    height: 600px;
+    background-image: url(#);
+    background-size: 600px 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/testflight/images/testflight-testers-hero-large.png)
+}
+
+@media only screen and (min-resolution: 1.5dppx),
+(min-resolution: 144dpi) {
+    #testers .main section.hero figure[data-figure-id="testflight-testers-hero"] {
+        background-image: url(/testflight/images/testflight-testers-hero-large_2x.png)
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    #testers .main section.hero figure[data-figure-id="testflight-testers-hero"] {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: initial;
+        width: 445px;
+        max-width: initial;
+        height: 445px;
+        background-image: url(#);
+        background-size: 445px 445px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/testflight/images/testflight-testers-hero-medium.png)
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    #testers .main section.hero figure[data-figure-id="testflight-testers-hero"] {
+        background-image: url(/testflight/images/testflight-testers-hero-medium_2x.png)
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    #testers .main section.hero figure[data-figure-id="testflight-testers-hero"] {
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        padding-bottom: 306px;
+        width: 306px;
+        max-width: 100%;
+        height: 0px;
+        background-image: url(#);
+        background-size: 100% auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/testflight/images/testflight-testers-hero-small.png)
+    }
+}
+
+@media only screen and (max-width: 735px) and (min-resolution: 1.5dppx),
+only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    #testers .main section.hero figure[data-figure-id="testflight-testers-hero"] {
+        background-image: url(/testflight/images/testflight-testers-hero-small_2x.png)
+    }
+}
